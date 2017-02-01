@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: trebuchet ms;
+	color: #777;
+}
+
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #507299;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+table{
+	width: 100%;
+}
+
+table th {
+	text-align: left;
+}
+
+table tr:not(.th):hover {
+	background-color: #EDEEF0;
+}
+
+table td,
+table th {
+	padding: 0.5em 0;
+}
+
+.header {
+	margin: 1em 0;
+}
+
+.header ul {
+	list-style: none;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-right: 1em;
+	text-decoration: none;
+}
